@@ -10,11 +10,11 @@ Copy any skill folder to `~/.claude/skills/`:
 
 ```bash
 # Clone the repo
-git clone https://github.com/kaiships/claude-skills
-cd claude-skills
+git clone https://github.com/kaiships/skills
+cd skills
 
 # Copy a specific skill
-cp -r skills/porto ~/.claude/skills/
+cp -r skills/example ~/.claude/skills/
 
 # Or copy all skills
 cp -r skills/* ~/.claude/skills/
@@ -22,9 +22,7 @@ cp -r skills/* ~/.claude/skills/
 
 ## Available Skills
 
-| Skill | Description |
-|-------|-------------|
-| [porto](/skills/porto) | Manage Porto account abstraction - upgrade wallets, send with stablecoin gas |
+*No public skills yet. Check back soon or [contribute your own](#creating-skills).*
 
 ## Skill Structure
 
@@ -32,7 +30,7 @@ Each skill is a folder containing a `skill.md` file:
 
 ```
 skills/
-└── porto/
+└── example/
     └── skill.md
 ```
 
